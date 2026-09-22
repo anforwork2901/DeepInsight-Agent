@@ -1,0 +1,60 @@
+# Python environments and package/build artifacts
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+build/
+dist/
+*.egg-info/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+
+# OS, editor, and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test, lint, type-check, and coverage caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Streamlit local config/cache
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Local databases and checkpoints
+*.sqlite
+*.sqlite3
+*.db
+data/checkpoints/
+
+# Generated reports and exported artifacts
+outputs/*
+!outputs/.gitkeep
+*.pdf
+
+# Logs and temporary files
+*.log
+*.tmp
+tmp/
+temp/
